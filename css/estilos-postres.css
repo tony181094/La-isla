@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-image: url("../imagenes/Fondo_1.jpeg");
+}
+#contenedor {
+    width: 95%;
+    margin: 30px auto;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Arial;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    margin-top: 50px;
+}
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+/* header */
+header {
+    background-image: url("../imagenes/banner.jpeg");
+    padding: 50px;
+    height: 226px;
+}
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Arial;
+}
+header img {
+    max-width: 306px;
+    margin: auto;
+    display: block;
+}
+/* nav */
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    border: 3px black solid;
+    background-color: brown;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+nav a:hover {
+    background-color: crimson;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+.postre-1 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 28px;
+}
+.postre-2 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -77px;
+    margin-left: 556px;
+}
+.postre-3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -76px;
+    margin-left: 793px;
+}
+.postre-4 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -78px;
+    margin-left: 1287px;
+}
+.torta img {
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 77px;
+   margin-left: 7px; 
+}
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #202020;
+	color: white;
+	display: flex;
+    margin-top: 23px;
+}
+footer .columna-1,
+footer .columna-2,
+footer .columna-3 {
+	flex-grow: 1;
+}
+.dias {
+    margin-top: 10px;
+}
+.lima {
+    margin-top: 10px;
+}
+.redes-sociales {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	width: fit-content;
+	margin: 0 auto;
+    margin-top: 18px;
+}
+footer .columna-1 { 
+	border-right: 2.5px gray solid;
+}
+footer .columna-2 {
+	border-right: 2.5px gray solid;
+}

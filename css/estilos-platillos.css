@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-image: url("../imagenes/Fondo_1.jpeg");
+}
+#contenedor {
+    width: 95%;
+    margin: 30px auto;
+}
+h2 {
+    border: 2px black solid;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: Calibri;
+    margin-left: 45px;
+}
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Arial;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+/* header */
+header {
+    background-image: url("../imagenes/banner.jpeg");
+    padding: 50px;
+    height: 226px;
+}
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Arial;
+}
+header img {
+    max-width: 306px;
+    margin: auto;
+    display: block;
+}
+/* nav */
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    border: 3px black solid;
+    background-color: brown;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+}
+nav a:hover {
+    background-color: crimson;
+}
+/* main */
+main { 
+    display: flex;
+}
+/* aside */
+aside {
+    width: 16%;
+    padding: 0px;
+    margin-top: 28px;
+    text-align: center;
+    color: white;
+    margin-left: 11px;
+    background: brown;
+}
+aside h2 a {
+    color: white;
+    text-decoration: none;
+}
+aside h2:hover{
+    background-color: orange;
+}
+.menu {
+    border-left: 3px white solid;
+    margin-left: 284px;
+    margin-top: -130px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+.entrada-1 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 13px;
+}
+.entrada-2 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -77px;
+    margin-left: 390px;
+}
+.entrada-3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -77px;
+    margin-left: 617px;
+}
+.entrada-4 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -51px;
+    margin-left: 1010px;
+}
+.huancaina img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-left: 45px;
+}
+.principal-1 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 13px;
+}
+.principal-2 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -77px;
+    margin-left: 390px;
+}
+.principal-3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -77px;
+    margin-left: 617px;
+}
+.principal-4 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -76.5px;
+    margin-left: 1010px;
+}
+.lomo img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-left: 45px;
+} 
+.pequeños-1 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 13px;
+
+}
+.pequeños-2 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -25px;
+    margin-left: 388px;
+}
+.pequeños-3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -26px;
+    margin-left: 615px;
+}
+.pequeños-4 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -26px;
+    margin-left: 1010px;
+}
+.pescado  img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 37px;
+    margin-left: 248px;
+}
+.arroz-1 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 13px;    
+}
+.arroz-2 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -51px;
+    margin-left: 389px;
+}
+.arroz-3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -50px;
+    margin-left: 618px;
+}
+.arroz-4 {
+    color: yellow;
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: -52px;
+    margin-left: 1010px;
+}
+.gallina img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-left: 45px;
+}
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #202020;
+	color: white;
+	display: flex;
+    margin-top: 23px;
+}
+footer .columna-1,
+footer .columna-2,
+footer .columna-3 {
+	flex-grow: 1;
+}
+.dias {
+    margin-top: 10px;
+}
+.lima {
+    margin-top: 10px;
+}
+.redes-sociales {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	width: fit-content;
+	margin: 0 auto;
+    margin-top: 18px;
+}
+footer .columna-1 { 
+	border-right: 2.5px gray solid;
+}
+footer .columna-2 {
+	border-right: 2.5px gray solid;
+}

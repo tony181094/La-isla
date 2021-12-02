@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+	background-image: url("../imagenes/Fondo_1.jpeg");
+}
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+h4 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+img {
+	max-width: 1451px;
+    margin: 0 auto;
+    display: block;
+}
+/*  header  */
+header {
+	background-image: url("../imagenes/banner.jpeg");
+	padding: 50px;
+	height: 226px;
+}
+header h3 {
+	text-align: center;
+	font-size: 20px;
+	font-style: oblique;
+	font-family: Arial;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: chocolate;
+}
+header img {
+	max-width: 306px;
+    margin: auto;
+    display: block;
+}
+
+/*  nav  */
+nav {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+nav a {
+
+	border: 1px black solid;
+	background-color: brown;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	font-family: Arial;
+}
+/*  main  */
+main {
+	display: flex;
+}
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: antiquewhite;
+}
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: firebrick;
+}
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+img:hover {
+	border-radius: 20px;
+}
+nav a:hover {
+	background-color: white;
+}
+aside a:hover {
+	color: blue;
+	font-size: 20pt; /*/para aumentar tamaño/*/
+}
+.secciones {
+	display: flex;
+	margin-bottom: 20px;
+}
+.secciones .columna-1,
+.secciones .columna-2 {
+	flex-grow: 1;
+	padding: 0 20px;
+}
+.secciones img{
+	max-width: 537px;
+	margin: 0 auto;
+	display: block;
+}
+.secciones .columna-1 {
+	border-right: 5px white solid;
+} 
+.secciones-titulo {
+	margin-bottom: 10px;
+}
+.secciones-descripcion {
+	background-color: brown;
+	color: white;
+	margin-bottom: 10px;
+}
+/*/ Footer/*/
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #202020;
+	color: white;
+	display: flex;
+}
+footer .columna-1,
+footer .columna-2,
+footer .columna-3 {
+	flex-grow: 1;
+}
+.redes-sociales {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	width: fit-content;
+	margin: 0 auto;
+}
+footer .columna-1 { 
+	border-right: 2.5px gray solid;
+}
+footer .columna-2 {
+	border-right: 2.5px gray solid;
+}
