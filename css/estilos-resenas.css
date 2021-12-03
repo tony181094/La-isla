@@ -55,8 +55,8 @@ nav {
 	display: flex;
 	justify-content: center;
 }
-nav a {
 
+nav a {
 	border: 3px black solid;
 	background-color: brown;
 	padding: 5px;
