@@ -68,6 +68,10 @@ nav a {
     font-size: 30px;
     font-family: Arial;
 }
+nav a:hover {
+    background-color: crimson;
+}
+
 ul {
     display: flex;
     list-style-type: none;

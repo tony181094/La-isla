@@ -12,6 +12,7 @@ body {
 }
 h2 {
 	text-align: center;
+	text-decoration: underline;
 	color: white;
 	font-size: 30px;
 }
@@ -56,7 +57,7 @@ nav {
 }
 nav a {
 
-	border: 1px black solid;
+	border: 3px black solid;
 	background-color: brown;
 	padding: 5px;
 	text-decoration: none;
@@ -65,9 +66,7 @@ nav a {
 	font-size: 30px;
 	font-family: Arial;
 }
-nav a:hover {
-	background-color: crimson;
-}
+
 /*  main  */
 main {
 	display: flex;
@@ -121,7 +120,7 @@ img:hover {
 	border-radius: 20px;
 }
 nav a:hover {
-	background-color: white;
+	background-color: crimson;
 }
 aside a:hover {
 	color: blue;
@@ -133,8 +132,9 @@ aside a:hover {
 }
 .secciones .columna-1,
 .secciones .columna-2 {
-	flex-grow: 1;
-	padding: 0 20px;
+	flex-basis: 100%;
+	padding: 20px;
+	margin-top: 50px;
 }
 .secciones img{
 	max-width: 537px;
@@ -150,7 +150,9 @@ aside a:hover {
 .secciones-descripcion {
 	background-color: brown;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-family: Arial;
 }
 /*/ Footer/*/
 /*  footer  */
