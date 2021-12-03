@@ -119,9 +119,10 @@ section figure figcaption {
 img:hover {
 	border-radius: 20px;
 }
-nav a:hover {
+nav a:hover{
 	background-color: crimson;
 }
+
 aside a:hover {
 	color: blue;
 	font-size: 20pt; /*/para aumentar tamaño/*/
