@@ -136,7 +136,7 @@ aside a:hover {
 .secciones .columna-1,
 .secciones .columna-2 {
 	flex-basis: 100%;
-	padding: 0 20px;
+	padding: 20px;
 }
 .secciones img{
 	max-width: 537px;
